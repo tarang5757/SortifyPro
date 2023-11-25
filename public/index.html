@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Algorithm Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="mb-4">Algorithm Visualizer</h1>
+        <p>Explore varieties of sorting algorithms with this interactive visualizer.</p>
+        <div class="card mt-4">
+            <div class="card-body">
+                <canvas id="canvas" width="600" height="400"></canvas>
+            </div>
+            <div class="card-footer text-muted">
+                <div class="row">
+                    <div class="col-md-4">
+                        <button id="mergeSort" class="btn btn-primary">Merge Sort</button>
+                    </div>
+                    <div class="col-md-4">
+                        <input id="speedControl" type="range" min="1" max="5" step="1" value="3">
+                    </div>
+                    <div class="col-md-4">
+                        <button id="quickSort" class="btn btn-primary">Quick Sort</button>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-4">
+                        <button id="bubbleSort" class="btn btn-primary">Bubble Sort</button>
+                    </div>
+                    <div class="col-md-4">
+                        <span id="stepCounter">Step: 0</span>
+                    </div>
+                    <div class="col-md-4">
+                        <button id="insertionSort" class="btn btn-primary">Insertion Sort</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Credit section for the creator -->
+        <div class="mt-4">
+            <p>Program created by Tarang</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" src="main.js"></script>
+</body>
+
+</html>
