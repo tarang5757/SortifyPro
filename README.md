@@ -2,6 +2,9 @@
 
 SortifyPro is a web-based sorting visualization tool that allows users to interactively visualize the algorithms of various sorting techniques. Whether you're a computer science enthusiast or a student learning sorting algorithms, SortifyPro provides an intuitive interface for understanding and exploring the workings of bubble sort, insertion sort, quicksort, and merge sort.
 
+# Try it out:
+Link: https://algorithm-visualizer-amber-tau.vercel.app/
+
 ## Features
 
 - **Sorting Algorithms**: SortifyPro supports the following sorting algorithms:
